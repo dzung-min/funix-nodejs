@@ -18,7 +18,7 @@ export default function ProductsPage({ isAdmin = false }) {
   return (
     <>
       {data.length === 0 ? (
-        <h2>No product found</h2>
+        <h2 style={{ textAlign: "center" }}>No product found</h2>
       ) : (
         <ProductsList products={data} isAdmin={isAdmin} />
       )}

@@ -1,5 +1,4 @@
 import Product from "../models/Product.mjs"
-import { __dirname } from "../utils/path.mjs"
 
 /**
  *

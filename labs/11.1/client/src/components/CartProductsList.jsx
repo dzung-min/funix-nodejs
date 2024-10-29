@@ -8,14 +8,6 @@ export default function CartProductList({ products }) {
   return (
     <main>
       <ul className="cart__item-list">{cartProductList}</ul>
-      <hr />
-      <div className="centered">
-        <form action="/create-order" method="POST">
-          <button type="submit" className="btn">
-            Order Now!
-          </button>
-        </form>
-      </div>
     </main>
   )
 }

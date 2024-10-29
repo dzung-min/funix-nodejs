@@ -13,6 +13,7 @@ import AddProductPage from "./pages/add-product"
 import CartPage from "./pages/cart"
 import EditProductPage from "./pages/edit"
 import ProductDetailPage from "./pages/product-details"
+import OrderPage from "./pages/order"
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
           { path: "edit/:productId", element: <EditProductPage /> },
         ],
       },
+      { path: "/orders", element: <OrderPage /> },
     ],
   },
 ])
