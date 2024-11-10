@@ -1,0 +1,15 @@
+POST http://localhost:3000/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "A Song of Ice and Fire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg",
+  "price": 24.99,
+  "description": "A Song of Ice and Fire takes place in a fictional world in which seasons last for years and end unpredictably. Nearly three centuries before the events of the first novel, the Seven Kingdoms of Westeros were united under the Targaryen dynasty, establishing military supremacy through their control of dragons."
+}
+
+###
+GET http://localhost:3000/products HTTP/1.1
+
+###
+DELETE http://localhost:3000/products/6730d99573c65e5117330f2c
